@@ -27,3 +27,16 @@
     --medium: 700;
     --bold: 900;
 }
+
+/*Basic Styles*/
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(../images/pattern-background-mobile.svg);
+    background-color: var(--pale-blue);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
