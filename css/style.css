@@ -49,7 +49,7 @@ img {
 /*Components*/
 
 .card {
-    background: var(--very-pale-blue);
+    background: #fff;
     max-width: 90%;
     display: flex;
     flex-direction: column;
@@ -69,12 +69,46 @@ img {
 .card__order-summary-heading {
     color: var(--dark-blue);
     font-size: 1.5rem;
+    font-weight: var(--bold);
     margin-top: 0.5rem;
 }
 
 .card__order-summary-text {
     color: var(--desaturated-blue);
     font-size: 1rem;
+    font-weight: var(--light);
     line-height: 1.6;
     margin-top: 1.2rem;
+}
+
+.card__order-summary-plan {
+    background-color: var(--very-pale-blue);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    margin-top: 1.2rem;
+}
+
+.card__order-summary-plan-type {
+    margin-left: 1rem;
+    margin-right: 3.25rem;
+}
+
+.card__order-summary-plan-type-heading {
+    color: var(--dark-blue);
+    font-size: .9rem;
+    font-weight: var(--bold);
+}
+
+.card__order-summary-plan-type-price {
+    color: var(--desaturated-blue);
+    font-size: .9rem;
+    font-weight: var(--light);
+}
+
+.card__order-summary-plan-change {
+    color: #3526e1;
+    font-size: .8125rem;
+    font-weight: var(--medium);
 }
