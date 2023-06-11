@@ -149,3 +149,15 @@ img {
 .card__order-summary-cancel-btn:hover {
     color: var(--dark-blue);
 }
+
+/*Responsive Web Design*/
+
+@media screen and (min-width: 31.25rem) {
+    .card {
+        width: 380px;
+    }
+
+    .card__order-summary {
+        padding: 1.5rem 2.5rem;
+    }
+}
