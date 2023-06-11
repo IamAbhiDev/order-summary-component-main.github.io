@@ -59,3 +59,9 @@ img {
     margin: 1.6rem;
     text-align: center;
 }
+
+/*Order Summary*/
+
+.card__order-summary {
+    padding: 1rem 1.5rem;
+}
