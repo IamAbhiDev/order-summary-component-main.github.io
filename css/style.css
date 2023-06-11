@@ -112,3 +112,25 @@ img {
     font-size: .8125rem;
     font-weight: var(--medium);
 }
+
+.card__order-summary-btn {
+    display: block;
+    font-weight: var(--medium);
+    text-decoration: none;
+}
+
+.card__order-summary-payment-btn {
+    background: var(--bright-blue);
+    color: white;
+    width: 100%;
+    border-radius: .7rem;
+    box-shadow: 4px 8px 30px -4px hsla(245, 85%, 54%, 0.5);
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card__order-summary-cancel-btn {
+    color: hsla(223, 47%, 23%, 0.65);
+    margin: 1.5rem auto;
+    margin-bottom: 1rem;
+}
